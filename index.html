@@ -1,0 +1,339 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Портфолио|Front-End</title>
+  <link rel="shortcut icon" href="./src/img/header/logo.png" type="image/x-icon" />
+  <link rel="stylesheet" href="./src/css/style.css" />
+  <link rel="stylesheet" href="./src/fonts/ProximaNova/stylesheet.css" />
+</head>
+
+<body>
+
+  <header class="header">
+    <div class="container">
+      <div class="header-desktop">
+        <nav class="header-nav">
+          <img class="header-nav__logo" src="./src/img/header/logo.png" />
+          <ul class="header-nav__ul">
+            <li class="header-nav__li"><a href="#about">Обо мне</a></li>
+            <li class="header-nav__li"><a href="#staks">Мой стек</a></li>
+            <li class="header-nav__li"><a href="#projects">Проекты</a></li>
+            <li class="header-nav__li"><a href="#">Контакты</a></li>
+          </ul>
+        </nav>
+      </div>
+      <div class="header-mobile">
+        <nav class="header-mobile-nav">
+          <img class="header-mobile-nav__logo" src="./src/img/header/logo.png" />
+          <div onclick="menuToggle()" class="header-mobile-nav__burger"></div>
+          <div class="header-mobile-menu">
+            <ul class="header-mobile-menu__ul">
+              <li class="header-mobile-menu__li"><a onclick="menuToggle()" href="#about">Обо мне</a></li>
+              <li class="header-mobile-menu__li"><a onclick="menuToggle()" href="#staks">Мой стек</a></li>
+              <li class="header-mobile-menu__li"><a onclick="menuToggle()" href="#projects">Проекты</a></li>
+              <li class="header-mobile-menu__li"><a onclick="menuToggle()" href="#">Контакты</a></li>
+            </ul>
+          </div>
+        </nav>
+      </div>
+    </div>
+  </header>
+
+  <main class="main">
+    <div class="container">
+      <section id="hero" class="hero">
+        <div class="row">
+          <div class="col-7">
+            <div class="hero-col">
+              <h1 class="hero-col__title">Привет, я Алибек!</h1>
+              <p class="hero-col__description">
+                Будем знакомы ≧◉◡◉≦
+              </p>
+            </div>
+          </div>
+          <div class="col-5">
+            <div class="hero-col hero-col-logo">
+              <h3 class="hero-col__h3 react">
+                <i class="fa-brands fa-react"></i>
+              </h3>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="about" id="about">
+        <h2 class="about__title">Обо мне</h2>
+        <div class="about-text-box">
+          <p class="about-text-box__p">
+            <i class="fa-solid fa-laptop-code"></i> Я front-end разработчик, с
+            пристрастием к созданию красивых и функциональных веб-приложений.
+            Обладаю глубокими знаниями веб-технологий и опытом работы с
+            различными фреймворками и инструментами.
+          </p>
+          <p class="about-text-box__p">
+            <i class="fa-regular fa-star"></i> Моя цель - создавать
+            превосходные пользовательские интерфейсы и обеспечивать наилучший
+            пользовательский опыт
+          </p>
+          <p class="about-text-box__p">
+            <i class="fa-brands fa-readme"></i> Я стремлюсь к постоянному
+            развитию и обучению, всегда открыт новым технологиям и подходам.
+            Готов к активному участию в вашей команде и привнести свой вклад в
+            достижение успеха проектов.
+          </p>
+          <p class="about-text-box__p">
+            <i class="fa-solid fa-face-laugh-wink"></i> С нетерпением жду
+            возможности обсудить, как я могу внести значительный вклад в вашу
+            компанию.
+          </p>
+        </div>
+      </section>
+
+      <section id="experience" class="experience">
+        <h2 class="experience__title">Опыт работы</h2>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <div class="experience-content">
+          <div class="experience-content-info">
+            <div class="experience-content-info-text-box">
+              <h3 class="experience-content-info-text-box__title">
+                Front-End разработчик (ɔ◔‿◔)ɔ ♥
+              </h3>
+              <p class="experience-content-info-text-box__description">
+                Хакатон | Full-time
+              </p>
+              <p class="experience-content-info-text-box__description">
+                с 29 июня по 29 июля
+              </p>
+              <p class="experience-content-info-text-box__description">
+                КГТУ им. И. Раззакова
+              </p>
+            </div>
+            <div class="experience-content-info-text-box">
+              <p class="experience-content-info-text-box__description">
+                - Вёрстка веб приложения для CarGo Компаний
+              </p>
+            </div>
+          </div>
+          <div class="experience-content-technology">
+            <h3 class="experience-content-technology__title">
+              Стек технологий (ง︡'-'︠)ง:
+            </h3>
+            <ul class="experience-content-technology__ul">
+              <li class="experience-content-technology__li">HTML 5</li>
+              <li class="experience-content-technology__li">CSS 3</li>
+              <li class="experience-content-technology__li">SCSS</li>
+              <li class="experience-content-technology__li">JavaScript/TypeScript</li>
+              <li class="experience-content-technology__li">React</li>
+              <li class="experience-content-technology__li">Node.js</li>
+              <li class="experience-content-technology__li">Firebase</li>
+              <li class="experience-content-technology__li">Redux Toolkit</li>
+              <li class="experience-content-technology__li">React Router </li>
+              <li class="experience-content-technology__li">React Query </li>
+              <li class="experience-content-technology__li">Vue</li>
+              <li class="experience-content-technology__li">Material UI/Ant Desing/Bootstrap/Jquery</li>
+              <li class="experience-content-technology__li">БЭМ/Agile/Scrum/Kanban/Jira/Trello</li>
+            </ul>
+          </div>
+          <div class="experience-content-tools">
+            <h3 class="experience-content-tools__title">Инструменты ʕ•́ᴥ•̀ʔっ:</h3>
+            <ul class="experience-content-tools__ul">
+              <li class="experience-content-tools__li">Webpack;</li>
+              <li class="experience-content-tools__li">
+                Visual Studio Code;
+              </li>
+              <li class="experience-content-tools__li">Figma;</li>
+              <li class="experience-content-tools__li">Vite;</li>
+              <li class="experience-content-tools__li">WebStorm</li>
+              <li class="experience-content-tools__li">Postman</li>
+            </ul>
+          </div>
+        </div>
+      </section>
+
+      <section class="staks" id="staks">
+        <h3 class="staks__title">Мой стек</h3>
+
+        <div class="row staks-row">
+          <div class="col-2">
+            <div class="staks-col">
+              <img class="staks-col__img" src="./src/img/staks/html5.svg" alt="" />
+              <h3 class="staks-col__h3">HTML 5</h3>
+            </div>
+          </div>
+          <div class="col-2">
+            <div class="staks-col">
+              <img class="staks-col__img" src="./src/img/staks/css3.svg" alt="" class="staks-col__img" />
+              <h3 class="staks-col__h3">CSS 3</h3>
+            </div>
+          </div>
+          <div class="col-2">
+            <div class="staks-col">
+              <img class="staks-col__img" src="./src/img/staks/sass.svg" alt="" class="staks-col__img" />
+              <h3 class="staks-col__h3">SCSS</h3>
+            </div>
+          </div>
+          <div class="col-2">
+            <div class="staks-col">
+              <img class="staks-col__img" src="./src/img/staks/javascript.svg" alt="" class="staks-col__img" />
+              <h3 class="staks-col__h3">JavaScript</h3>
+            </div>
+          </div>
+          <div class="col-2">
+            <div class="staks-col">
+              <img class="staks-col__img" src="./src/img/staks/react.svg" alt="" class="staks-col__img" />
+              <h3 class="staks-col__h3">ReactJS</h3>
+            </div>
+          </div>
+          <div class="col-2">
+            <div class="staks-col">
+              <img class="staks-col__img" src="./src/img/staks/react-router.svg" alt="" class="staks-col__img" />
+              <h3 class="staks-col__h3">React-Router</h3>
+            </div>
+          </div>
+        </div>
+        <br>
+        <br>
+        <img id="cat" src="https://www.pngall.com/wp-content/uploads/2016/06/Nyan-Cat-PNG-Image.png">
+        <br>
+        <div class="row staks-row">
+          <div class="col-2">
+            <div class="staks-col">
+              <img class="staks-col__img"
+                src="https://cdn.icon-icons.com/icons2/2415/PNG/512/redux_original_logo_icon_146365.png" alt=""
+                class="staks-col__img" />
+              <h3 class="staks-col__h3">Redux</h3>
+            </div>
+          </div>
+          <div class="col-2">
+            <div class="staks-col">
+              <img class="staks-col__img"
+                src="https://cdn4.iconfinder.com/data/icons/google-i-o-2016/512/google_firebase-2-512.png" alt=""
+                class="staks-col__img" />
+              <h3 class="staks-col__h3">Firebase</h3>
+            </div>
+          </div>
+          <div class="col-2">
+            <div class="staks-col">
+              <img class="staks-col__img"
+                src="https://seeklogo.com/images/R/react-query-logo-1340EA4CE9-seeklogo.com.png" alt=""
+                class="staks-col__img" />
+              <h3 class="staks-col__h3">React Query</h3>
+            </div>
+          </div>
+          <div class="col-2">
+            <div class="staks-col">
+              <img class="staks-col__img" src="https://cdn.freebiesupply.com/logos/thumbs/2x/nodejs-1-logo.png" alt=""
+                class="staks-col__img" />
+              <h3 class="staks-col__h3">Node.js</h3>
+            </div>
+          </div>
+          <div class="col-2">
+            <div class="staks-col">
+              <img class="staks-col__img"
+                src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/95/Vue.js_Logo_2.svg/640px-Vue.js_Logo_2.svg.png"
+                alt="" class="staks-col__img" />
+              <h3 class="staks-col__h3">Vue 3</h3>
+            </div>
+          </div>
+          <div class="col-2">
+            <div class="staks-col">
+              <img class="staks-col__img"
+                src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/4c/Typescript_logo_2020.svg/512px-Typescript_logo_2020.svg.png"
+                alt="" class="staks-col__img" />
+              <h3 class="staks-col__h3">TypeScript</h3>
+            </div>
+          </div>
+        </div>
+
+        <h3 class="staks-tools__title">Инструменты и прочее:</h3>
+        <div class="row staks-row">
+          <div class="col-3">
+            <div class="staks-col">
+              <img src="./src/img/staks/webstorm.svg" alt="" class="staks-col__img" />
+              <h3 class="staks-col__h3">WebStorm</h3>
+            </div>
+          </div>
+          <div class="col-3">
+            <div class="staks-col">
+              <img src="./src/img/staks/vs-code.svg" alt="" class="staks-col__img" />
+              <h3 class="staks-col__h3">VS Code</h3>
+            </div>
+          </div>
+          <div class="col-3">
+            <div class="staks-col">
+              <img src="./src/img/staks/webpack-original.svg" alt="" class="staks-col__img" />
+              <h3 class="staks-col__h3">Webpack</h3>
+            </div>
+          </div>
+          <div class="col-3">
+            <div class="staks-col">
+              <img src="./src/img/staks/git.svg" alt="" class="staks-col__img" />
+              <h3 class="staks-col__h3">Git</h3>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- <section id="projects" class="projects">
+        <h3 class="projects__title"></h3>
+        <div class="projects-cards">
+          <div class="card">
+            <img src="./src/img/projects/clone-github.png" alt="" class="card__img">
+            <div class="card-info">
+              <h3 class="card-info__title">Clone-github</h3>
+              <a href="https://clone-github-i20ws5389-beksultan2200.vercel.app" class="card-info__btn">Посмотреть</a>
+            </div>
+          </div>
+          <div class="card">
+            <img src="./src/img/projects/stroy.png" alt="" class="card__img">
+            <div class="card-info">
+              <h3 class="card-info__title">StroykaStore</h3>
+              <a href="https://beksultan2200.github.io/stroy/index.html" class="card-info__btn">Посмотреть</a>
+            </div>
+          </div>
+          <div class="card">
+            <img src="./src/img/projects/weather.jpeg" alt="" class="card__img">
+            <div class="card-info">
+              <h3 class="card-info__title">WeatherApp</h3>
+              <a href="https://weather-p0g6ahp2c-beksultan2200.vercel.app" class="card-info__btn">Посмотреть</a>
+            </div>
+          </div>
+          <div class="card">
+            <img src="./src/img/projects/alto.png" alt="" class="card__img">
+            <div class="card-info">
+              <h3 class="card-info__title">My first website</h3>
+              <a href="https://beksultan2200.github.io/alto-myFirstSite/" class="card-info__btn">Посмотреть</a>
+            </div>
+          </div>
+          <div class="card">
+            <img src="./src/img/projects/parallax.png" alt="" class="card__img">
+            <div class="card-info">
+              <h3 class="card-info__title">Parallax-3d-effect</h3>
+              <a href="https://beksultan2200.github.io/parallax-3d-effect-website/"
+                class="card-info__btn">Посмотреть</a>
+            </div>
+          </div>
+          <div class="card">
+            <img src="./src/img/projects/3d-card.png" alt="" class="card__img">
+            <div class="card-info">
+              <h3 class="card-info__title">3d-tilt-animation</h3>
+              <a href="https://beksultan2200.github.io/js-3d-tilt-animation/" class="card-info__btn">Посмотреть</a>
+            </div>
+          </div>
+
+        </div>
+      </section> -->
+    </div>
+  </main>
+  <script src="./src/js/app.js"></script>
+  <script src="./src/libs/fa/js/all.js"></script>
+</body>
+
+</html>
